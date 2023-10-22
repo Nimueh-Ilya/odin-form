@@ -1,0 +1,135 @@
+:root {
+  --bgcolor: #1f2937;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  width: auto;
+  height: 100%;
+}
+
+.form-header,
+.intro > p {
+  font-weight: 600;
+  font-size: larger;
+}
+body {
+  height: 100%;
+}
+.main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.intro {
+  padding: 20px;
+  padding-top: 100px;
+}
+.second-par {
+  padding-bottom: 15px;
+}
+.bgimage {
+  width: 45%;
+  height: 100%;
+  background-image: url(assets/bgimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form {
+  width: 100%;
+  background-color: #e5e7eb;
+}
+.form-header {
+  background-color: white;
+  padding: 30px;
+}
+.form-container {
+  display: flex;
+  background-color: white;
+  font-size: small;
+  padding-bottom: 15px;
+  box-shadow: 0 8px 6px -6px black;
+}
+.col1 {
+  width: 40%;
+  margin-left: 50px;
+}
+.col2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.col3 {
+  width: auto;
+}
+label {
+  display: block;
+  width: auto;
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 2px;
+  font-weight: medium;
+  padding-top: 15px;
+}
+.know {
+  font-style: italic;
+}
+input {
+  border-color: #252525;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  margin: 5px;
+  margin-left: 1px;
+  height: 20px;
+  background-color: #f4f6fa;
+  width: 168px;
+}
+button[type="submit"] {
+  margin: 25px;
+  padding: 15px 45px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #e5e5e5;
+  background-color: var(--bgcolor);
+  cursor: pointer;
+}
+.login-instead {
+  margin: 25px;
+}
+.login {
+  color: var(--bgcolor);
+  font-weight: bolder;
+  cursor: pointer;
+}
+/* .error:invalid {
+  border-color: red;
+  border-width: 3px;
+} */
+
+.pillarImg {
+  filter: invert(100%) sepia(0%) saturate(5465%) hue-rotate(68deg)
+    brightness(90%) contrast(91%);
+  position: absolute;
+  bottom: 10px;
+}
+.pillarText {
+  align-self: flex-end;
+  color: #e5e7eb;
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 4px;
+}
+.patch {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: black;
+  opacity: 50%;
+  height: 300px;
+  top: 0px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="bgimage">
+        <div class="patch">
+          <img class="pillarImg" src="assets/column.svg" alt="pillars logo" />
+          <p class="pillarText">PILLARS</p>
+        </div>
+      </div>
+      <div class="form">
+        <div class="intro">
+          <p class="first-par">
+            This is not a real service! You know you need something like this to
+            help set your life straight.
+          </p>
+          <p class="second-par">Sign up now to get started.</p>
+          <p class="third-par">
+            You <span class="know">know</span> you want to.
+          </p>
+        </div>
+        <form action="" method="post">
+          <h1 class="form-header">Let's do this!</h1>
+          <div class="form-container">
+            <div class="col1">
+              <label for="firstName">FIRST NAME</label>
+              <input required type="text" name="firstname" id="firstName" />
+              <label for="email">EMAIL</label>
+              <input required type="email" name="email" id="email" />
+              <label for="password">PASSWORD</label>
+              <input
+                required
+                type="password"
+                name="password"
+                id="password"
+                class="error"
+                minlength="8"
+              />
+            </div>
+            <div class="col2">
+              <label for="lastName">LAST NAME</label>
+              <input required type="text" name="lastName" id="lastName" />
+              <label for="number">PHONE NUMBER</label>
+              <input required type="tel" name="number" id="number" />
+              <label for="confirmPassword">CONFIRM PASSWORD</label>
+              <input
+                required
+                type="password"
+                name=""
+                id="confirmPassword"
+                class="error"
+              />
+            </div>
+            <div class="col3"></div>
+          </div>
+          <button type="submit">Create Account</button>
+          <p class="login-instead">
+            Already have an account? <span class="login">Log in</span>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
